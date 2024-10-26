@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import TextH1 from './components/typography/TextH1.vue'
-import TextH2 from './components/typography/TextH2.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
-  <main class="bg-light_gradient dark:bg-dark_background w-full h-screen">
-    <TextH1 title="Lightning fast prototyping" />
-    <TextH2 title="Available exclusively on the Mac for just $99." />
+  <main class="bg-light_gradient w-full h-screen">
+    <FooterSection />
   </main>
 </template>
 
