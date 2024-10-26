@@ -1,25 +1,12 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import TextH1 from './components/typography/TextH1.vue'
+import TextH2 from './components/typography/TextH2.vue'
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="./assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
+  <main class="bg-light_gradient dark:bg-dark_background w-full h-screen">
+    <TextH1 title="Lightning fast prototyping" />
+    <TextH2 title="Available exclusively on the Mac for just $99." />
   </main>
 </template>
 
