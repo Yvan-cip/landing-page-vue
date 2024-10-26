@@ -6,6 +6,10 @@ defineProps<{
 
 <template>
   <div class="text-left p-[10px] w-full">
-    <h1 class="text-[74px] leading-[84px]">{{ title }}</h1>
+    <h4
+      class="text-second_text dark:text-light_text text-[28px] leading-[40px]"
+    >
+      {{ title }}
+    </h4>
   </div>
 </template>
