@@ -6,6 +6,8 @@ defineProps<{
 
 <template>
   <div class="text-left p-[10px] w-full">
-    <a class="text-blue text-[15px] leading-[28px]">{{ text }}</a>
+    <a class="text-texte dark:text-light_text text-[15px] leading-[28px]">{{
+      text
+    }}</a>
   </div>
 </template>
