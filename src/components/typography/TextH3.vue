@@ -5,8 +5,8 @@ defineProps<{
 </script>
 
 <template>
-  <div class="text-left p-[10px] w-full">
-    <h3 class="text-texte dark:text-light_text text-[20px] leading-[28px]">
+  <div class="p-[10px] w-full">
+    <h3 class="text-[20px] leading-[28px]">
       {{ title }}
     </h3>
   </div>
