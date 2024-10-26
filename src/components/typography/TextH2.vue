@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="text-left p-[10px] w-full">
-    <h2 class="text-texte text-[48px] leading-[55px] dark:text-light_text">
+    <h2 class="font-medium text-[48px] leading-[55px]">
       {{ title }}
     </h2>
   </div>
