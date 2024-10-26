@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import CtaSection from './components/CtaSection.vue'
 import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
   <main class="bg-light_gradient w-full h-screen">
+    <CtaSection />
     <FooterSection />
   </main>
 </template>
