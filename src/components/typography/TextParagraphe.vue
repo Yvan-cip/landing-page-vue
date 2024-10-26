@@ -5,8 +5,8 @@ defineProps<{
 </script>
 
 <template>
-  <div class="text-left p-[10px] w-full">
-    <p class="text-[18px] leading-[25px]">
+  <div class="text-left px-[10px] w-full">
+    <p class="text-second_text text-[18px] leading-[25px]">
       {{ text }}
     </p>
   </div>
