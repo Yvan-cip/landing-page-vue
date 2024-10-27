@@ -6,7 +6,7 @@ import BrandIbm from './svg/BrandIbm.vue'
 
 <template>
   <section class="flex w-full justify-center py-[100px]">
-    <div class="flex flex-col justify-center gap-y-[28px] sm:gap-y-[50px]">
+    <div class="flex flex-col justify-center gap-y-[28px] sm:gap-y-[80px]">
       <div class="flex w-full flex-col jusitify-center gap-y-[80px]">
         <div
           class="flex flex-col w-full jusitify-center text-center text-texte gap-y-[7px]"
