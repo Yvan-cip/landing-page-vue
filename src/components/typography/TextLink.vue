@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
   text: string
-  link: string
+  link?: string
 }>()
 </script>
 
