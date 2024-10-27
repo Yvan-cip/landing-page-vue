@@ -15,6 +15,7 @@ import ButtonPrimary from './ui/ButtonPrimary.vue'
           <TextH2 title="Fastest way to organize" />
           <TextH4
             title="Most calendars are designed for teams. Slate is designed for freelancers"
+            color="text-second_text"
           />
         </div>
 

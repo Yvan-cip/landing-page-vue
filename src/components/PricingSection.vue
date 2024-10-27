@@ -77,6 +77,7 @@ const pricingOptions = [
           <TextH2 title="Pricing" />
           <TextH4
             title="Most calendars are designed for teams. Slate is designed for freelancers"
+            color="text-light_text"
           />
         </div>
 

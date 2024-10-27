@@ -2,6 +2,7 @@
 import HeroLight from './components/HeroLight.vue'
 import CtaSection from './components/CtaSection.vue'
 import PricingSection from './components/PricingSection.vue'
+import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
 </script>
 
@@ -10,6 +11,7 @@ import FooterSection from './components/FooterSection.vue'
     <HeroLight />
     <CtaSection />
     <PricingSection />
+    <ContactSection />
     <FooterSection />
   </main>
 </template>
