@@ -22,7 +22,7 @@ defineProps<{
       type="text"
       @focus="isFocused = true"
       @blur="isFocused = false"
-      class="border border-[#E8E8E8] rounded-[39px] bg-light_background px-[35px] py-[19px]"
+      class="border border-[#E8E8E8] rounded-[39px] w-full bg-[#F5F5F5] px-[35px] py-[19px]"
     />
   </div>
 </template>
