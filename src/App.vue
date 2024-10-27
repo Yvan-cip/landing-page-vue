@@ -1,10 +1,12 @@
 <script setup lang="ts">
+import HeroLight from './components/HeroLight.vue'
 import CtaSection from './components/CtaSection.vue'
 import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
   <main class="bg-light_gradient w-full h-screen">
+    <HeroLight />
     <CtaSection />
     <FooterSection />
   </main>
