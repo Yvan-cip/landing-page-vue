@@ -15,13 +15,17 @@ import IconMailPrimary from './icons/IconMailPrimary.vue'
 <template>
   <section class="flex w-full justify-center py-[100px]">
     <div class="flex flex-col justify-center gap-y-[28px] sm:gap-y-[50px]">
-      <div class="text-texte max-w-[532px] flex flex-col gap-y-[80px]">
-        <div class="flex flex-col jusitify-center text-center gap-y-[7px]">
+      <div class="text-texte flex w-full flex-col jusitify-center gap-y-[80px]">
+        <div
+          class="flex flex-col w-full jusitify-center text-center gap-y-[7px]"
+        >
           <TextH2 title="Contact Us" />
-          <TextH4
-            title="Most calendars are designed for teams. Slate is designed for freelancers"
-            color="text-second_text"
-          />
+          <div class="text-center w-full flex justify-center">
+            <TextH4
+              title="Most calendars are designed for teams. Slate is designed for freelancers"
+              color="text-second_text max-w-[532px] "
+            />
+          </div>
         </div>
       </div>
       <div class="flex gap-x-[50px]">
