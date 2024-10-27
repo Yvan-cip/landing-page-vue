@@ -27,7 +27,9 @@ import InputText from './ui/InputText.vue'
           <TextParagraphe text="Available exclusivery on Figmaland" />
           <div class="flex flex-col gap-y-3 sm:flex-row py-[34px] gap-x-3">
             <InputText label="Your Email" />
-            <ButtonPrimary text="Subscribe" />
+            <div class="w-1/4">
+              <ButtonPrimary text="Subscribe" />
+            </div>
           </div>
         </div>
       </div>
