@@ -18,7 +18,7 @@ import ButtonPrimary from './ui/ButtonPrimary.vue'
           />
         </div>
 
-        <div>
+        <div class="w-1/2">
           <ButtonPrimary text="Try for free" />
         </div>
       </div>
