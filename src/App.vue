@@ -4,12 +4,14 @@ import CtaSection from './components/CtaSection.vue'
 import PricingSection from './components/PricingSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import TestimonialSection from './components/TestimonialSection.vue'
 </script>
 
 <template>
   <main class="bg-light_gradient w-full h-screen">
     <HeroLight />
     <CtaSection />
+    <TestimonialSection />
     <PricingSection />
     <ContactSection />
     <FooterSection />
