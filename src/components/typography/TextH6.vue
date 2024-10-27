@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="text-left p-[10px] w-full">
+  <div class="p-[10px] w-full">
     <h5 class="text-[16px] leading-[23px]">
       {{ title }}
     </h5>
