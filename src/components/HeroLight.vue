@@ -2,7 +2,7 @@
 import MacBook from './svg/MacBook.vue'
 import TextH4 from './typography/TextH4.vue'
 import TextH2 from './typography/TextH2.vue'
-import ButtonAction from './ui/ButtonAction.vue'
+import ButtonPrimary from './ui/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -19,7 +19,7 @@ import ButtonAction from './ui/ButtonAction.vue'
         </div>
 
         <div>
-          <ButtonAction text="Try for free" />
+          <ButtonPrimary text="Try for free" />
         </div>
       </div>
       <div class="max-sm:hidden">

@@ -3,7 +3,7 @@ import NewsLetter from './svg/NewsLetter.vue'
 import TextH3 from './typography/TextH3.vue'
 import TextH2 from './typography/TextH2.vue'
 import TextParagraphe from './typography/TextParagraphe.vue'
-import ButtonAction from './ui/ButtonAction.vue'
+import ButtonPrimary from './ui/ButtonPrimary.vue'
 import InputText from './ui/InputText.vue'
 </script>
 
@@ -27,7 +27,7 @@ import InputText from './ui/InputText.vue'
           <TextParagraphe text="Available exclusivery on Figmaland" />
           <div class="flex flex-col gap-y-3 sm:flex-row py-[34px] gap-x-3">
             <InputText label="Your Email" />
-            <ButtonAction text="Subscribe" />
+            <ButtonPrimary text="Subscribe" />
           </div>
         </div>
       </div>
