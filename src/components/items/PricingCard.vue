@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import TextH3 from './typography/TextH3.vue'
-import TextH1 from './typography/TextH1.vue'
-import TextH6 from './typography/TextH6.vue'
-import TextLink from './typography/TextLink.vue'
-import ButtonPrimary from './ui/ButtonPrimary.vue'
-import ButtonLight from './ui/ButtonLight.vue'
+import TextH3 from '../typography/TextH3.vue'
+import TextH1 from '../typography/TextH1.vue'
+import TextH6 from '../typography/TextH6.vue'
+import TextLink from '../typography/TextLink.vue'
+import ButtonPrimary from '../ui/ButtonPrimary.vue'
+import ButtonLight from '../ui/ButtonLight.vue'
 
 defineProps<{
   title: string
