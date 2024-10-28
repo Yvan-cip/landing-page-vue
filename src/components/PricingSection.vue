@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import TextH2 from './typography/TextH2.vue'
 import TextH4 from './typography/TextH4.vue'
-import PricingCard from './PricingCard.vue'
+import PricingCard from './items/PricingCard.vue'
 
 const pricingOptions = [
   {

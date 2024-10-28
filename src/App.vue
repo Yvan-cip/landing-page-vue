@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import FeatureSection from './components/FeatureSection.vue'
 import HeroLight from './components/HeroLight.vue'
 import CtaSection from './components/CtaSection.vue'
 import PartnerSection from './components/PartnerSection.vue'
@@ -10,6 +11,7 @@ import FooterSection from './components/FooterSection.vue'
 
 <template>
   <main class="bg-light_gradient w-full h-screen">
+    <FeatureSection />
     <HeroLight />
     <CtaSection />
     <PartnerSection />
