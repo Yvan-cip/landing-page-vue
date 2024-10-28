@@ -13,7 +13,7 @@ import ButtonPrimary from '../ui/ButtonPrimary.vue'
     <InputText label="Your Name" />
     <InputText label="Your Email" />
     <InputTextarea label="Your Message" />
-    <div class="w-1/4">
+    <div class="w-1/2">
       <ButtonPrimary text="Send" />
     </div>
   </div>
