@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import FooterItem from './FooterItem.vue'
+import FooterItem from './items/FooterItem.vue'
 import TextH3 from './typography/TextH3.vue'
 import TextLink from './typography/TextLink.vue'
 import IconLocation from './icons/IconLocation.vue'
