@@ -2,6 +2,7 @@
 import TextH3 from '../typography/TextH3.vue'
 import InputText from '../ui/InputText.vue'
 import InputTextarea from '../ui/InputTextarea.vue'
+import ButtonPrimary from '../ui/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -12,5 +13,8 @@ import InputTextarea from '../ui/InputTextarea.vue'
     <InputText label="Your Name" />
     <InputText label="Your Email" />
     <InputTextarea label="Your Message" />
+    <div class="w-1/2">
+      <ButtonPrimary text="Send" />
+    </div>
   </div>
 </template>
