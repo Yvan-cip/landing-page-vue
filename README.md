@@ -1,24 +1,22 @@
 # landing-page
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a test project for integrating a web mockup designed for a resolution of **2560 x 1120** using the following technologies:
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **vue.js**
+- **tailwind**
+- **git flow**
 
 ## Project Setup
+
+### Installing
 
 ```sh
 npm install
 ```
+
+## Tailwind CSS Integration
+
+This project uses Tailwind CSS for styling. Make sure to have the necessary Tailwind directives in your CSS file. You can customize your Tailwind configuration as needed.
 
 ### Compile and Hot-Reload for Development
 
@@ -30,6 +28,12 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+### Format with
+
+```sh
+npm run format
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
