@@ -8,7 +8,7 @@ import InputText from './ui/InputText.vue'
 </script>
 
 <template>
-  <section class="flex w-full justify-center py-[43px]">
+  <section id="about" class="flex w-full justify-center py-[43px]">
     <div
       class="flex flex-col justify-center sm:grid sm:grid-cols-2 gap-x-[50px]"
     >

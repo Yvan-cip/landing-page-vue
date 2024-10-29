@@ -7,19 +7,28 @@ import IconLogo from './icons/IconLogo.vue'
 import IconTwiter from './icons/IconTwiter.vue'
 import IconFacebook from './icons/IconFacebook.vue'
 import IconLinkedin from './icons/IconLinkedin.vue'
+
+const links = [
+  { text: 'Home', link: '#home' },
+  { text: 'Product', link: '#product' },
+  { text: 'Pricing', link: '#pricing' },
+  { text: 'About', link: '#about' },
+  { text: 'Contact', link: '#contact' },
+]
 </script>
 
 <template>
-  <section class="w-full h-fit pb-[80px]">
+  <section id="home" class="w-full h-fit pb-[80px]">
     <div class="background-image flex flex-col">
       <div class="h-[156px] w-full flex justify-center">
         <div class="w-[1210px] flex justify-between items-center">
           <div class="text-light_text flex-row flex gap-x-[21px] items-center">
-            <TextLink text="Home" />
-            <TextLink text="Product" />
-            <TextLink text="Pricing" />
-            <TextLink text="About" />
-            <TextLink text="Contact" />
+            <TextLink
+              v-for="(item, index) in links"
+              :key="index"
+              :text="item.text"
+              :link="item.link"
+            />
           </div>
           <div class="translate-x-[-70%]">
             <IconLogo />

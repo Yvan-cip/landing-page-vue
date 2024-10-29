@@ -27,7 +27,7 @@ const features = [
 </script>
 
 <template>
-  <section class="flex w-full justify-center">
+  <section id="product" class="flex w-full justify-center">
     <div class="flex flex-col justify-center gap-y-[28px] sm:gap-y-[80px]">
       <div
         class="flex flex-col w-full jusitify-center text-center text-texte gap-y-[7px]"
