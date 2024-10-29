@@ -68,7 +68,10 @@ const pricingOptions = [
 </script>
 
 <template>
-  <section class="flex w-full justify-center py-[100px] bg-dark_background">
+  <section
+    id="pricing"
+    class="flex w-full justify-center py-[100px] bg-dark_background"
+  >
     <div class="flex flex-col justify-center gap-x-[28px] sm:gap-x-[50px]">
       <div class="text-texte max-w-[532px] flex flex-col gap-y-[80px]">
         <div

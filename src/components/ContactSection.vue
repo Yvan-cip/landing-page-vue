@@ -13,7 +13,7 @@ import IconMailPrimary from './icons/IconMailPrimary.vue'
 </script>
 
 <template>
-  <section class="flex w-full justify-center py-[100px]">
+  <section id="contact" class="flex w-full justify-center py-[100px]">
     <div class="flex flex-col justify-center gap-y-[28px] sm:gap-y-[50px]">
       <div class="text-texte flex w-full flex-col jusitify-center gap-y-[80px]">
         <div
